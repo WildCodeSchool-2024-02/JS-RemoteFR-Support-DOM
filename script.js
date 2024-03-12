@@ -1,15 +1,15 @@
 /**
- * Il y a 3 étapes clés :
+ * Il y a 3 étapes clé :
  *
- * 1. Récupérer l'élement HTML dans le Js (document.getElements / document.querySelector)
- * 2. Ajouter un écouter d'évenement (xxxx.addEventListener('type', callback);) | Callback = function dans une function
+ * 1. Récupérer l'élément HTML dans le Js (document.getElements / document.querySelector)
+ * 2. Ajouter un écouté d'événement (xxxx.addEventListener('type', callback);) | Callback = function dans une fonction
  * 3. Modifier l'HTML
  */
 
 // 1. Récuperer
 const h1 = document.querySelector("h1");
 /**
- * Liste de document
+ * Liste de document.
  * - getElementByID
  * - getElementsByClassName
  * - getElementsByTagName
@@ -17,8 +17,8 @@ const h1 = document.querySelector("h1");
  */
 
 /**
- * - querySelector : Récupere 1 seul élement
- * - querySelectorAll : Récupere tous les éléments trouvé
+ * - querySelector : Récupère 1 seul élement
+ * - querySelectorAll : Récupère tous les éléments trouvés
  */
 
 // 2. Ajouter un listener
@@ -27,8 +27,8 @@ h1.addEventListener("click", function () {
 
 	// 3. Modifier l'HTML
 	/**
-	 * - innerHTML : prend en compte les balises HTML
-	 * - innerText : ne prend pas en compte les balises HTML
+	 * - innerHTML : prends en compte les balises HTML
+	 * - innerText : ne prends pas en compte les balises HTML
 	 * - textContent :
 	 * - ...
 	 *
